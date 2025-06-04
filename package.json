@@ -1,16 +1,16 @@
 {
-  "name": "similarity-ph",
+  "name": "string-similarity-ph",
   "version": "4.0.5",
-  "description": "Finds degree of similarity between strings, based on Dice's Coefficient, which is mostly better than Levenshtein distance.",
+  "description": "Forked version of string-similarity with updates by Jerome Jamis.",
   "main": "src/index.js",
   "scripts": {
     "test": "jasmine --config=src/spec/support/jasmine.json",
     "build": "rm -rf umd && webpack-cli",
-    "prepublish": "npm test && npm run build"
+    "prepare": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aceakash/string-similarity.git"
+    "url": "https://github.com/wedfhujkkmhhgg233/string-similarity.git"
   },
   "keywords": [
     "strings",
@@ -29,7 +29,7 @@
     "src/index.js",
     "umd/string-similarity.min.js"
   ],
-  "author": "Akash Kurdekar <npm@kurdekar.com> (http://untilfalse.com/)",
+  "author": "Jerome Jamis",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^3.6.3",
