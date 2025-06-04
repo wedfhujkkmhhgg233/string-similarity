@@ -1,5 +1,5 @@
 {
-  "name": "string-similarity",
+  "name": "similarity",
   "version": "4.0.4",
   "description": "Finds degree of similarity between strings, based on Dice's Coefficient, which is mostly better than Levenshtein distance.",
   "main": "src/index.js",
