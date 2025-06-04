@@ -1,6 +1,6 @@
 {
   "name": "string-similarity-ph",
-  "version": "4.0.5",
+  "version": "1.0.0",
   "description": "Forked version of string-similarity with updates by Jerome Jamis.",
   "main": "src/index.js",
   "scripts": {
